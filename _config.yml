@@ -1,21 +1,18 @@
-remote-theme: jekyll-text-theme
+title: "Документация к проекту"
+description: "Полная техническая документация"
+baseurl: "" # если используется GitHub Pages в сабрепозитории — укажи "/repo-name"
+url: "https://yourusername.github.io"
 
-header:
-  - title:      Docs
-    url:        /docs/en/quick-start
-  - title:      文档
-    url:        /docs/zh/quick-start
-  - titles:
-      en:       Archive
-      zh:       归档
-      zh-Hans:  归档
-      zh-Hant:  歸檔
-    url:        /archive.html
-  - titles:
-      en:       About
-      zh:       关于
-      zh-Hans:  关于
-      zh-Hant:  關於
-    url:        /about.html
-  - title:      GitHub
-    url:        https://github.com/kitian616/jekyll-TeXt-theme
+theme: minima
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Подключение навигации
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: "default"
