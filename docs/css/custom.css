@@ -1,0 +1,17 @@
+.md-header {
+  background-color: #3953BC !important;
+}
+
+
+body {
+   font-family: 'JetBrains Mono', monospace;
+   background-color: #262626 !important;
+}
+
+.md-header__title {
+  display: none !important;
+}
+
+a:hover {
+  border-color: #3953BC !important;  /* Чёрная граница при наведении */
+}
